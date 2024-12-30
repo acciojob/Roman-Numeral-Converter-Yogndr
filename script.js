@@ -8,7 +8,7 @@ function convertToRoman(num) {
       5:['V', 5], 
       6:['I', 1]
     };
-  let res="";
+  let res='';
 	for(let i=0;i<obj.length;i++){
 		while(num>=obj[i][1]){
 			res+=obj[i][0];
@@ -25,8 +25,4 @@ function convertToRoman(num) {
 
 console.log(convertToRoman(36));
 
-
-
-
-// do not edit below this line
 module.exports = convertToRoman
